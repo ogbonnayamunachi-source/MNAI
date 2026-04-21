@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book a Consultation | Munachi AI Studio</title>
+
+
+  <style>
+    body {
+      margin: 0;
+      background-color: #0d0d0d;
+      color: #ffffff;
+      font-family: 'Cormorant Garamond', serif;
+    }
+
+    .consultation {
+      max-width: 700px;
+      margin: auto;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    .consultation h1 {
+      color: #C6A85E;
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .consultation p {
+      color: #cccccc;
+      margin-bottom: 40px;
+      font-size: 18px;
+    }
+
+    .consultation input,
+    .consultation textarea {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      background-color: #1a1a1a;
+      border: 1px solid #C6A85E;
+      color: #ffffff;
+      border-radius: 8px;
+      font-size: 15px;
+    }
+
+    .consultation textarea {
+      height: 120px;
+      resize: none;
+    }
+
+    .consultation button {
+      background: linear-gradient(135deg, #C6A85E, #E5C97A);
+      color: #111;
+      padding: 14px 30px;
+      border: none;
+      border-radius: 30px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s ease;
+      font-size: 16px;
+    }
+
+    .consultation button:hover {
+      background: #ffffff;
+      color: #000000;
+      transform: translateY(-3px);
+    }
+
+    .back-home {
+      display: block;
+      margin-top: 30px;
+      color: #C6A85E;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .back-home:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="consultation">
+    <h1>Book a Consultation</h1>
+    <p>
+      Let’s discuss how Munachi AI Studio can help your brand grow with AI-powered content and virtual support.
+    </p>
+
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Business Name">
+      <textarea placeholder="Tell us about your needs..."></textarea>
+
+      <button type="submit">Schedule Consultation</button>
+    </form>
+
+   <a href="munachi-ai.html" class="back-home">← Back to Home</a>
+  </section>
+
+</body>
+</html>
