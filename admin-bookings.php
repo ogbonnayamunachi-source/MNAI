@@ -95,7 +95,7 @@ $result = $conn->query("SELECT * FROM bookings ORDER BY created_at DESC");
 
 </table>
 
-<a href="munachi-ai.html" class="back-home">← Back to Home</a>
+<a href="index.html" class="back-home">← Back to Home</a>
 
 </body>
 </html>
